@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form action="">
+        <label for="f-name">First Name:</label><br>
+        <input type="text" id="f-name" placeholder=""><br>
+
+        <label for="l-name">Last Name:</label><br>
+        <input type="text" id="l-name" placeholder=""><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" placeholder=""><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" name="gender" id="other" checked>
+        <label for="other">Other</label><br>
+        
+        <label for="date">Date of Birth:</label><br>
+        <input type="date" id="date"><br>
+
+        <label for="w-site">Website:</label><br>
+        <input type="url" id="w-site" placeholder=""><br>
+
+        <label for="country">Country:</label><br>
+        <select name="country" id="country">
+            <option value="USA">USA</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            <option value="France">France</option>
+        </select><br>
+
+        <label for="message">Message:</label><br>
+        <textarea name="" id="message" cols="30" rows="4"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
